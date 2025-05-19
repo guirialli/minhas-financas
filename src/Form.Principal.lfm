@@ -1,0 +1,31 @@
+object FmlPrincipal: TFmlPrincipal
+  Left = 372
+  Height = 529
+  Top = 32
+  Width = 958
+  Caption = 'Minhas Finanças'
+  Color = clWhite
+  Menu = MainMenu1
+  object MainMenu1: TMainMenu
+    Left = 8
+    Top = 16
+    object MainContas: TMenuItem
+      Caption = 'Contas'
+      OnClick = MainContasClick
+      object MainCadBoletos: TMenuItem
+        Caption = 'Cadastrar Boletos'
+        OnClick = MainCadBoletosClick
+      end
+      object MainCadFaturas: TMenuItem
+        Caption = 'Cadastrar Fatura'
+        OnClick = MainCadFaturasClick
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Renda'
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Relatórios'
+    end
+  end
+end

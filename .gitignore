@@ -1,0 +1,5 @@
+*.res
+*/backup/*
+backup/*
+out/
+lib/
